@@ -7,7 +7,7 @@ so we need a roubust system to give them a best expreience possible
 this part is showing the backend design of the project as this backend is based on Microservices architecture
 
 # Requirements
-* A user should able to search flights based on 2 location 
+### A user should able to search flights based on 2 location 
 - user should be able to mention source and destination place
 - user should be able to select date of journey
 - [future_functionality] user should be able to search for return flights and multi city flights
@@ -18,8 +18,8 @@ this part is showing the backend design of the project as this backend is based 
 - will show the best avalavil flights based on time and price on the top
 - show pagination features for optimisimg performance reduce the load also..
 - we should support filter based on departure time,duration,price,time,stops and airlines duration etc
-* A user should be able to book a flight considering that user id registered on the platform
-* Tracking flight prices should be possible the user should be notified about any price drops
+### A user should be able to book a flight considering that user id registered on the platform
+### Tracking flight prices should be possible the user should be notified about any price drops
 
 
 
