@@ -7,7 +7,7 @@ so we need a roubust system to give them a best expreience possible
 this part is showing the backend design of the project as this backend is based on Microservices architecture
 
 # Requirements
--> A user should able to search flights based on 2 location 
+- A user should able to search flights based on 2 location 
           -> user should be able to mention source and destination place
           -> user should be able to select date of journey
           -> [future_functionality] user should be able to search for return flights and multi city flights
