@@ -43,6 +43,14 @@ this part is showing the backend design of the project as this backend is based 
 - flight booking data should be accurate
 - Expect there will be 100k active users (overall yearly) and 2k for booking daily
 
+# capacity_estimation
+- user estimation - 200k users 
+--------------------------------------------------------
+- storage - ( for next 2 years) - 20k per day * 2 years = 15lac 
+- lets take 10mb data per booking data and userdata  so 10mb * 15lac = 15TB
+--------------------------------------------------------------------------------
+- Traffic estimation 
+
 
 
 
