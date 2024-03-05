@@ -42,14 +42,20 @@ this part is showing the backend design of the project as this backend is based 
 - we can expect there will be more requests for search rather thn booking
 - flight booking data should be accurate
 - Expect there will be 100k active users (overall yearly) and 2k for booking daily
+- system should be able to scale it up atleast 3x time of traffic
 
 # capacity_estimation
 - user estimation - 200k users 
---------------------------------------------------------
-- storage - ( for next 2 years) - 20k per day * 2 years = 15lac 
+--------------------------------------------------------------------------------
+- storage - ( for next 2 years) - 2k per day * 2 years = 15lac 
 - lets take 10mb data per booking data and userdata  so 10mb * 15lac = 15TB
 --------------------------------------------------------------------------------
 - Traffic estimation 
+- if we consider 30:1 search:booking ratio then at max we will expect 
+- 10k daily active users
+- 180k search query a day 
+- 5k booking query a day 
+- so per second we will be getting 1,80,000/(24*60*60) = 2 booking request per second
 
 
 
