@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 
 // imports realated to application level configuration
 const { PORT } = require("./config/serverconfig");
+const { City } = require("../src/models/index");
+const CityRepository = require("./repository/City-repository");
 
 
 // purpose : function to start and boot our server
@@ -12,8 +14,10 @@ const setupAndStartServer = async () => {
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
 
-  app.listen(PORT, () => {
+  app.listen(PORT, async () => {
     console.log(`server started at ${PORT}`);
+    // const response = await CityRepository.createCity({ name: "bhubaneswar" });
+    // console.log(response);
   });
 };
 
